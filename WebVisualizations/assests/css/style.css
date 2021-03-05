@@ -1,0 +1,38 @@
+a.navbar-brand{
+
+    background:  rgb(57, 135, 167);
+    background-position: left;
+}
+
+a.nav-link{
+    background: rgb(57, 135, 167);
+}
+
+.navbar{
+    background:  rgb(57, 135, 167);
+    padding: -5%;
+    background-position: left;
+}
+
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  }
+
+  body {
+    background: lightcyan;
+  }
+
+  h2 {
+      font-style: unset;
+  }
